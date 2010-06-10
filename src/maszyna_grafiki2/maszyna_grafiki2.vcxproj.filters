@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\IO">
+      <UniqueIdentifier>{44d3f58d-b8e3-4f31-b3b7-e491ebf4323e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IO\XMLio">
+      <UniqueIdentifier>{b15dad21-4bd6-497e-ab69-29c28e8f1526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IO">
+      <UniqueIdentifier>{b2021df3-45e9-4690-9a88-6c10ce5aabfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IO\XMLio">
+      <UniqueIdentifier>{740c8402-be7a-4e7a-9668-a103949a51d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cObjects">
+      <UniqueIdentifier>{e8aff961-ca56-42a0-91f7-b377e602e981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\cObjects">
+      <UniqueIdentifier>{cf760f1d-caba-4e6e-b425-3437e1f4ba07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\system">
+      <UniqueIdentifier>{749553a8-9c26-4573-8636-d8ceeef7c0f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\system">
+      <UniqueIdentifier>{7957b859-9450-4ebe-ab8d-9795fc5c2777}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cSceneList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="graphSys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneObjectList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xmlio.h">
+      <Filter>Header Files\IO\XMLio</Filter>
+    </ClInclude>
+    <ClInclude Include="loadSceneXML.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="cEntity.h">
+      <Filter>Header Files\cObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="cMovableObject.h">
+      <Filter>Header Files\cObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="cObject.h">
+      <Filter>Header Files\cObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="cLight.h">
+      <Filter>Header Files\cObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="cCamera.h">
+      <Filter>Header Files\cObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjectFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="system\sys_mgr.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\system_queue.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\system_signal.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\system_signal_names.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\io\io_system.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="graphSys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneObjectList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlio.cpp">
+      <Filter>Source Files\IO\XMLio</Filter>
+    </ClCompile>
+    <ClCompile Include="loadSceneXML.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="cEntity.cpp">
+      <Filter>Source Files\cObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="cMovableObject.cpp">
+      <Filter>Source Files\cObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="cObject.cpp">
+      <Filter>Source Files\cObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="cLight.cpp">
+      <Filter>Source Files\cObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="cCamera.cpp">
+      <Filter>Source Files\cObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="system\system_signal.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\sys_mgr.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\system_queue.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\io\io_system.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

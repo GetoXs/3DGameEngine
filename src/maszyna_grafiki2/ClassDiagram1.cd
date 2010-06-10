@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="cScene">
+    <Position X="3.75" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAACAAAAAAQAAAgAAAEAAAAAAAAAAAAABAAAQAAAQA=</HashCode>
+      <FileName>cSceneList.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="objectList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="cObject">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="nextId" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AkAAAAAAAAAIAAAAAFAQAAACAAQAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>cObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cObjectFactory">
+    <Position X="6.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cObjectFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cEntity" Collapsed="true">
+    <Position X="9.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAA=</HashCode>
+      <FileName>cEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cMovableObject">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAIggAA=</HashCode>
+      <FileName>cMovableObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cSceneObjectList" Collapsed="true">
+    <Position X="1" Y="2.75" Width="1.5" />
+    <AssociationLine Name="head" Type="cSceneObjectElem" FixedFromPoint="true">
+      <Path>
+        <Point X="1.625" Y="2.75" />
+        <Point X="1.625" Y="1.312" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAABCQEAAAAAAgCBAAAAAAAAAAEAQA=</HashCode>
+      <FileName>cSceneObjectList.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="head" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="cSceneObjectElem" Collapsed="true">
+    <Position X="1" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAACAAAAAAAAAAAAAABAAAAAAAAAIAAAA=</HashCode>
+      <FileName>cSceneObjectList.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="object" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="loadSceneXML" Collapsed="true">
+    <Position X="0.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAAAAAACAgAAAgEQAEAAAAAAAQAAAAAgAAQAAAAAA=</HashCode>
+      <FileName>loadSceneXML.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="loadedXML" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="XML" Collapsed="true">
+    <Position X="0.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgAAgAAAAQAIBAAACACAAAEAABBAAAEgAgAAAA=</HashCode>
+      <FileName>xmlio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cCamera" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAgAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cLight" Collapsed="true">
+    <Position X="7.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>cLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="graphSys">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <Members>
+      <Field Name="_fCameraSet" Hidden="true" />
+      <Field Name="_fChangeBgColor" Hidden="true" />
+      <Field Name="_fCreateWindow" Hidden="true" />
+      <Field Name="_fExit" Hidden="true" />
+      <Field Name="_fInitEngine" Hidden="true" />
+      <Field Name="_fLoadXML" Hidden="true" />
+      <Field Name="_fRenderFrame" Hidden="true" />
+      <Field Name="_fStartInit" Hidden="true" />
+      <Field Name="frameRate" Hidden="true" />
+      <Field Name="oWin" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="graphSys::flagParam" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>graphSys.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BQQAAEUAQAAAQAEBAAgQAIAAADAYoJACAgAIAEAAIRI=</HashCode>
+      <FileName>graphSys.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="XMLScene" />
+      <Field Name="scene" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
