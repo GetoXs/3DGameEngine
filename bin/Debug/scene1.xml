@@ -1,0 +1,13 @@
+<xml childEl="2" version="1.0">
+<resource childEl="1">
+	<resourceGroup childEl="1" name="Paczka1">
+		<FileSystem chilEl="0" path="../../media/nowe/robot"/>
+	</resourceGroup>
+</resource>
+<scene childEl="4" name="DomyslnaScena" type="0" ambR="0.5" ambG="0.5" ambB="0.5">
+	<light childEl="0" name="Light1" type="point" posX="200" posY="200" posZ="200"/>
+	<entity childEl="0" name="Robot1" mesh="robot.mesh" shadowEnabled="1" resGroup="Paczka1" posX="0" posY="0" posZ="0"/>
+	<entity childEl="0" name="Rob1" mesh="robot.mesh" resGroup="Paczka1" posX="50" posY="0" posZ="0" nodeParent="Robot1"/>
+	<camera childEl="0" name="Cam1" nearClipDistance="5" farClipDistance="1000" posX="0" posY="50" posZ="200"/>
+</scene>
+</xml>
